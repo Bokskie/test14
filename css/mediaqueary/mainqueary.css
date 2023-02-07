@@ -1,0 +1,91 @@
+@media (max-width: 720px){
+
+.first-container
+{
+    text-align: center; 
+    margin-top: 8rem;
+    height: auto;
+    width: 100%;
+}
+/*------------------------Font Animation-----------------*/
+.first-container h1 
+{
+    font-size: var(--wp-represent-font-size-large);
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 205px;
+    }
+}
+.first-container .first-all-content
+{
+    margin-top: 4rem;
+    display: flex;
+}
+.first-container .first-home-page
+{
+
+    width: 100%;
+}
+.first-container .second-home-page
+{
+    width: 100%;
+}
+
+}
+@media (max-width: 470px){
+/*------------------------Font Animation-----------------*/
+.first-container h1 
+{
+
+    font-size: var(--wp-represent-font-size-large);
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 206px;
+    }
+}
+.first-container .first-all-content
+{
+    margin-top: 4rem;
+    gap: 3rem;
+    display: flex;
+}
+.first-container .first-home-page
+{
+    
+    width: 100%;
+}
+.first-container .second-home-page
+{
+        width: 100%;
+}
+/*----BUTTON SWITCHER PAGE---*/
+.switch-tabs button 
+{
+    font-size: var(--wp-represent-font-size-normal);
+    font-family: var(--font-style-primary);
+    padding: 10px;
+}
+.switch-tabs .tabs_button
+{
+    width: 40%;
+}    
+/*--FIRST CONTENT SWITCHER PAGE--*/
+.tabs_content .personal-info p
+{
+    font-size: var(--wp-represent-font-size-small);
+}
+}
